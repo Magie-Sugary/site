@@ -4,7 +4,8 @@
 <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 <title>Magie Sugary - Characters</title>
 <script src="https://kit.fontawesome.com/7e8dfdd8ef.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="CSS/style.css">
+<script src="JS/main.js"></script>
 </head>
 <body>
 <center>
@@ -22,56 +23,56 @@
 </ul>
 <div class="char">
 <div class="char-image">
-	<img src="images/Peter.png">
+	<img src="images/Peter.png" id="char-image">
 </div>
 <div class="char-info">
-<h1>Peter</h1>
+<h1 id="char-name">Peter</h1>
 <hr>
 <div class="char-drescription">
 <div class="char-inner">
-<p>Peter is the twin of Julie. He is passionated for adventure stories and now he will embark in an adventure to find his mother and her secrets.</p>
+<p id="char-description">Peter is the twin of Julie. He is passionated for adventure stories and now he will embark in an adventure to find his mother and her secrets.</p>
 </div>
 <div class="char-stats">
-<div class="panel"><span>Title</span><hr><span>The Adventurer</span></div>
-<div class="panel"><span>Special Skill</span><hr><span>Endless Backpack</span></div>
-<div class="panel"><span>Base Health</span><hr><span>100 HP</span></div>
-<div class="panel"><span>Base Attack</span><hr><span>10 ATK</span></div>
-<div class="panel"><span>Favorite Weapon</span><hr><span>Shovel</span></div>
+<div class="panel"><span>Title</span><hr><span id="char-title">The Adventurer</span></div>
+<div class="panel"><span>Special Skill</span><hr><span id="char-skill">Endless Backpack</span></div>
+<div class="panel"><span>Base Health</span><hr><span id="char-hp">100</span><span> HP</span></div>
+<div class="panel"><span>Base Attack</span><hr><span id="char-atk">10</span><span> ATK</span></div>
+<div class="panel"><span>Favorite Weapon</span><hr><span id="char-weapon">Shovel</span></div>
 </div>
 </div>
 </div>
 </div>
 <hr style="width:100%">
 <div class="char-list">
-	<div class="char-panel">
+	<div onclick="char(Peter)" class="char-panel">
 		<img src="images/Peter.png" alt="Peter">
 		<div class="char-name"><span>Peter</span></div>
 	</div>
-	<div class="char-panel">
+	<div onclick="char(Julie)" class="char-panel">
 		<img src="images/Julie.png" alt="Julie">
 		<div class="char-name"><span>Julie</span></div>
 	</div>
-	<div class="char-panel">
+	<div onclick="char(Harry)" class="char-panel">
 		<img src="images/Harry.png" alt="Harry">
 		<div class="char-name"><span>Harry</span></div>
 	</div>
-	<div class="char-panel">
+	<div onclick="char(Greg)" class="char-panel">
 		<img src="images/Greg.png" alt="Greg">
 		<div class="char-name"><span>Greg</span></div>
 	</div>
-	<div class="char-panel">
+	<div onclick="char(Mary)" class="char-panel">
 		<img src="images/Mary.png" alt="Mary">
 		<div class="char-name"><span>Mary</span></div>
 	</div>
-	<div class="char-panel">
+	<div onclick="char(Peter)" class="char-panel">
 		<img src="images/Thomas.png" alt="Thomas">
 		<div class="char-name"><span>Peter</span></div>
 	</div>
-	<div class="char-panel">
+	<div onclick="char(Jeanne)" class="char-panel">
 		<img src="images/Jeanne.png" alt="Jeanne">
 		<div class="char-name"><span>Jeanne</span></div>
 	</div>
-	<div class="char-panel">
+	<div onclick="char(Emily)" class="char-panel">
 		<img src="images/Emily.png" alt="Emily">
 		<div class="char-name"><span>Emily</span></div>
 	</div>
