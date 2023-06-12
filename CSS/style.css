@@ -4,6 +4,12 @@
     src: url('../Fonts/EBGaramond-VariableFont_wght.ttf') format('truetype');
  }
 
+/* ??? */
+.liam {
+	text-align: center;
+    font-size: 30px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
 	background-color: #282A35;
@@ -50,6 +56,20 @@
 	text-align: center;
 }
 
+/* Character Selector*/
+.image-selectors {
+	margin: 5px;
+}
+
+/* Character Image Selector*/
+.iselector {
+	display: inline-block;
+	padding: 6px;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
 /* Character Info*/
 .char-info {
 	width: 70%;
@@ -71,11 +91,6 @@
 	border-radius: 10px;
 }
 
-/* Character List*/
-.char-list {
-
-}
-
 /* Character Panel*/
 .char-panel {
 	float: left;
@@ -95,6 +110,7 @@
 	position: relative;
 	bottom: 31px;
 	font-size: 1.4rem;
+	border-radius: 12px;
 }
 .char-panel:hover .char-name {
   display: block;
