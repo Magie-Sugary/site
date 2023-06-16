@@ -13,7 +13,12 @@ Emily=["images/Emily.png","images/EmilyBody.png","Emily","Emily is renowned as t
 /* ??? */
 document.addEventListener('keydown', (e) => {
   cursor = (e.keyCode == CODE[cursor]) ? cursor + 1 : 0;
-  if (cursor == CODE.length) window.location.href = "GM.html";
+  if (cursor == CODE.length) {
+	  if (window.location.href.includes("GM.html")) {
+	  window.location.href = "Characters.html";
+	  } else {
+	  window.location.href = "GM.html";}
+  }
 });
 
 /* Portrait Button*/
