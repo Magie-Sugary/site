@@ -26,5 +26,6 @@ $questions = array(
   "default" => "HE IS WATCHING US"
 );
 
+header('Content-Type: application/json');
 echo json_encode($questions);
 ?>
