@@ -18,7 +18,6 @@ function ask() {
   };
   
   xhttp.open("GET", "questions.php", true);
-  xhttp.responseType = "json";
   xhttp.send();
 }
 
