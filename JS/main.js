@@ -14,7 +14,7 @@ Emily=["images/Emily.png","images/EmilyBody.png","Emily","Emily is renowned as t
 document.addEventListener('keydown', (e) => {
   cursor = (e.keyCode == CODE[cursor]) ? cursor + 1 : 0;
   if (cursor == CODE.length) {
-	  if (window.location.href.includes("gm" || "GM")) {
+	if (window.location.href.includes("gm") || window.location.href.includes("GM")) {
 	  window.location.href = "Characters.html";
 	  } else {
 	  window.location.href = "GM.html";}

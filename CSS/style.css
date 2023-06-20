@@ -17,6 +17,16 @@ main {
   flex: 1;
 }
 
+/* No more purple links*/
+a:visited {
+  color: blue;
+}
+
+/* Image Drag*/
+img {
+  -webkit-user-drag: none;
+}
+
 /* ??? */
 .liam {
 	text-align: center;
@@ -74,6 +84,7 @@ footer {
 .mslogo {
 	font-family: 'EBGaramond';
 	background: #04AA6D;
+	margin:0;
 }
 
 /* Character Image*/
@@ -156,4 +167,14 @@ footer {
 /* Fona Chart*/
 .charts {
 	text-align: center;
+}
+
+/* 404 div*/
+.d404 {
+	border-radius: 200px;
+	border: 2px black solid;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	background: #04AA6D;
 }
