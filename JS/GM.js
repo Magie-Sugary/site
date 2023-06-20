@@ -17,7 +17,7 @@ function ask() {
     }
   };
   
-  xhttp.open("GET", "questions.php", true);
+  xhttp.open("GET", "questions.json", true);
   xhttp.send();
 }
 
