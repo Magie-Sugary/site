@@ -1,4 +1,4 @@
-var questions = {
+{
   "d2hv": "TGlhbS4=",
   "c2luY2Ugd2hlbg==": "U2luY2UgdGhlIHJlYm9vdCBvciBldmVuIGJlZm9yZS4=",
   "d2h5": "QmVjYXVzZSBoZSBjYW4u",
@@ -23,4 +23,4 @@ var questions = {
   "Y2FuIHlvdSBzZWUgdGhlIGZ1dHVyZQ==": "VGhlcmUgYXJlIG5vIGZ1dHVyZSB0byBiZSBzZWVuLg==",
   "XHUxNmM5XHUxNmUxXHUxNmRmXHUwMEIw": "JiN4MTZCMzs=",
   "default" :  "HE IS WATCHING US"
-};
+}
