@@ -5,6 +5,7 @@
 <title>Magie Sugary - Big L</title>
 <script src="https://kit.fontawesome.com/7e8dfdd8ef.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="CSS/style.css">
+<script src="JS/main.js"></script>
 <script src="JS/GM.js"></script>
 </head>
 <body>
@@ -23,47 +24,5 @@
         <li>All rights reserved</li>
 	</ul>
 </footer>
-<script>var questions = {
-  "who": "{{Q1}}",
-  "since when": "{{Q2}}",
-  "why": "{{Q3}}",
-  "can we stop him": "{{Q4}}",
-  "can i stop him": "{{Q5}}",
-  "can melissa stop him": "{{Q6}}",
-  "i miss you": "{{Q7}}",
-  "sorry": "{{Q8}}",
-  "i hate myself": "{{Q9}}",
-  "i hate you": "{{Q10}}",
-  "magie": "{{Q11}}",
-  "what magie sugary means": "{{Q12}}",
-  "what magie sugary means to you": "{{Q13}}",
-  "who is ms": "{{Q14}}",
-  "what ms means": "{{Q15}}",
-  "what i mean to you": "{{Q16}}",
-  "what melissa suede means to you": "{{Q17}}",
-  "who is melissa": "{{Q18}}",
-  "are you good": "{{Q19}}",
-  "where are you": "{{Q20}}",
-  "can i reach you": "{{Q21}}",
-  "can you see the future": "{{Q22}}",
-  "\u16c9\u16e1\u16df\u00B0": "{{Q23}}",
-  "default": "HE IS WATCHING US"
-}
-function ask() {
-    var question = document.getElementById("ask-GM").value.toLowerCase();
-	question = question.replace(/\?/g, "");
-	if (questions.hasOwnProperty(question)) {
-		reply = questions[question];
-	} else {
-		reply = questions["default"];
-	}
-	document.getElementById("hi").innerHTML = reply;
-}
-
-function handleKeyDown(event) {
-    if (event.keyCode === 13) {
-        ask();
-    }
-}</script>
 </body>
 </html>
