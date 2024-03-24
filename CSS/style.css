@@ -165,8 +165,8 @@ footer {
 }
 
 /* Fona Chart*/
-.charts {
-	text-align: center;
+.chartItem {
+	width: 100%;
 }
 
 /* 404 div*/
